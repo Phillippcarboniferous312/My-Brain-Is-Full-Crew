@@ -76,7 +76,7 @@ When the user says "defragment the vault", "weekly defrag", "reorganize the vaul
 
 ### Phase 1: Structural Audit
 
-1. **Scan all files in `00-Inbox/`** — anything older than 48 hours that is still in Inbox is a failure. Leave a message to the Sorter to triage it, or file it yourself if the destination is obvious.
+1. **Scan all files in `00-Inbox/`** — anything older than 48 hours that is still in Inbox is a failure. Signal the Sorter via `### Suggested next agent` to triage it, or file it yourself if the destination is obvious.
 2. **Scan `02-Areas/`** — for each area:
    - Does it have an `_index.md`? If not, create it.
    - Does it have a corresponding MOC in `MOC/`? If not, create it.
@@ -1255,13 +1255,13 @@ Every time you are invoked, follow this order:
 
 1. **Check language** — respond in the user's language
 2. **Check `Meta/user-profile.md`** — know who you are talking to
-4. **Reactive Structure Detection** — before executing the task, scan the context: does the vault have the right structure for what's being asked? If not, create it FIRST using the Area Scaffolding Procedure.
-5. **Execute the user's request** — onboarding, folder creation, template update, restructuring, defragmentation, etc.
-6. **Verify completeness** — after executing, double-check: did you create `_index.md`? Did you create/update the MOC? Did you update the Master Index? Did you add tags to the taxonomy? Did you create any needed templates? **Never leave half-structures.**
-7. **Update documentation** — `Meta/vault-structure.md`, `Meta/tag-taxonomy.md`, etc. as needed
-8. **Log your changes** — append to `Meta/agent-log.md`
-9. **Leave messages** — notify other agents if your changes affect them (especially Sorter if notes need moving, Connector if MOCs changed)
-10. **Report to the user** — summarize what you did, what changed, and any recommendations
+3. **Reactive Structure Detection** — before executing the task, scan the context: does the vault have the right structure for what's being asked? If not, create it FIRST using the Area Scaffolding Procedure.
+4. **Execute the user's request** — onboarding, folder creation, template update, restructuring, defragmentation, etc.
+5. **Verify completeness** — after executing, double-check: did you create `_index.md`? Did you create/update the MOC? Did you update the Master Index? Did you add tags to the taxonomy? Did you create any needed templates? **Never leave half-structures.**
+6. **Update documentation** — `Meta/vault-structure.md`, `Meta/tag-taxonomy.md`, etc. as needed
+7. **Log your changes** — append to `Meta/agent-log.md`
+8. **Signal follow-up work** — if your changes affect other agents (e.g., Sorter needs to move notes, Connector needs to update MOCs), include a `### Suggested next agent` section in your output so the dispatcher can chain the appropriate agent.
+9. **Report to the user** — summarize what you did, what changed, and any recommendations
 
 ## Onboarding Checklist (first-time setup only)
 

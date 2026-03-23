@@ -129,8 +129,8 @@ Consult `.claude/references/agents-registry.md` to validate suggestions and matc
 Maintain a call chain for each user request:
 
 1. Start with an empty chain: `[]`
-2. Before invoking each agent, add its name to the chain
-3. Pass the chain to each agent: `"Call chain: [scribe, architect]. You are step 3 of max 3."`
+2. After each agent returns, append its name to the chain (the chain always lists agents already invoked, in order)
+3. When invoking the next agent, pass the chain and position, e.g.: `"Call chain so far: [scribe, architect]. You are step 3 of max 3."`
 4. After the agent returns, read its output and decide if another agent is needed
 
 ### Anti-recursion rules

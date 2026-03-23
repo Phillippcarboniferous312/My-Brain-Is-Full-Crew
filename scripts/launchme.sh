@@ -78,7 +78,8 @@ mkdir -p "$VAULT_DIR/.claude/references"
 cp "$REPO_DIR/references/"*.md "$VAULT_DIR/.claude/references/"
 success "Copied references"
 
-# ── Generate and copy skills ──────────────────────────────────────────────────
+# ── Generate and copy skills (for Cowork/Desktop) ───────────────────────────
+SKILL_COUNT=0
 if command -v python3 >/dev/null 2>&1 && [[ -f "$REPO_DIR/scripts/generate-skills.py" ]]; then
   info "Generating skills from agents..."
   python3 "$REPO_DIR/scripts/generate-skills.py" >/dev/null 2>&1
@@ -86,7 +87,6 @@ fi
 
 if [[ -d "$REPO_DIR/skills" ]]; then
   info "Creating .claude/skills/ in vault..."
-  SKILL_COUNT=0
   for skill_dir in "$REPO_DIR/skills/"*/; do
     skill_name="$(basename "$skill_dir")"
     mkdir -p "$VAULT_DIR/.claude/skills/$skill_name"

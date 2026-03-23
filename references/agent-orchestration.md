@@ -73,8 +73,8 @@ Every user request has a **call chain** — the ordered list of agents invoked s
 ### Rules
 
 1. **Start**: chain is empty `[]`
-2. **Before each invocation**: add the agent to the chain
-3. **Pass the chain**: tell the agent its position — `"Call chain: [scribe, architect]. You are step 3."`
+2. **After each agent returns**: append its name to the chain (the chain always lists agents already invoked, in order)
+3. **Pass the chain**: when invoking the next agent, tell it the chain and its position — `"Call chain so far: [scribe, architect]. You are step 3 of max 3."`
 4. **No duplicates**: never invoke the same agent twice in one chain
 5. **No circular patterns**: if Agent A suggests Agent B and B is already in the chain, skip
 6. **Max depth: 3**: no more than 3 agents per user request
@@ -91,7 +91,7 @@ If the dispatcher would need a 4th agent, it:
 ## What Agents Should NOT Do
 
 - ❌ **Do NOT reference `Meta/agent-messages.md`** — the shared message board is deprecated
-- ❌ **Do NOT write to other agents' files** — all coordination goes through the dispatcher
+- ❌ **Do NOT edit other agents' prompt/config files** (e.g., `.claude/agents/*.md`) — normal vault notes/MOC edits are still allowed per your responsibilities; all coordination goes through the dispatcher
 - ❌ **Do NOT block waiting for another agent** — finish your task and suggest next steps in your output
 - ❌ **Do NOT call other agents** — only the dispatcher invokes agents
 
