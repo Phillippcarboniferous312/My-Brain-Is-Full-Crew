@@ -157,6 +157,36 @@ if [[ -d "$REPO_DIR/skills" ]]; then
   success "Copied $SKILL_COUNT skills"
 fi
 
+# ── Deprecate stale orchestra scripts on reinstall ──────────────────────────
+OLD_ORCH_MANIFEST="$VAULT_DIR/Meta/scripts/.core-manifest"
+if [[ $EXISTING -eq 1 && -f "$OLD_ORCH_MANIFEST" ]]; then
+  while IFS= read -r old_script; do
+    [[ -z "$old_script" ]] && continue
+    [[ -f "$REPO_DIR/orchestra/$old_script" ]] && continue
+    vault_script="$VAULT_DIR/Meta/scripts/$old_script"
+    [[ -f "$vault_script" ]] || continue
+    rm "$vault_script"
+    warn "Removed stale script: $old_script"
+  done < "$OLD_ORCH_MANIFEST"
+fi
+
+# ── Copy orchestra scripts ──────────────────────────────────────────────────
+ORCH_COUNT=0
+if [[ -d "$REPO_DIR/orchestra" ]]; then
+  mkdir -p "$VAULT_DIR/Meta/scripts"
+  : > "$VAULT_DIR/Meta/scripts/.core-manifest"
+  for script in "$REPO_DIR/orchestra/"*; do
+    [[ -f "$script" ]] || continue
+    bname="$(basename "$script")"
+    [[ "$bname" == "README.md" ]] && continue
+    cp "$script" "$VAULT_DIR/Meta/scripts/"
+    chmod +x "$VAULT_DIR/Meta/scripts/$bname"
+    echo "$bname" >> "$VAULT_DIR/Meta/scripts/.core-manifest"
+    ORCH_COUNT=$((ORCH_COUNT + 1))
+  done
+  success "Copied $ORCH_COUNT orchestra scripts to Meta/scripts/"
+fi
+
 # ── Copy CLAUDE.md ───────────────────────────────────────────────────────────
 if [[ -f "$REPO_DIR/CLAUDE.md" ]]; then
   cp "$REPO_DIR/CLAUDE.md" "$VAULT_DIR/CLAUDE.md"
@@ -223,6 +253,8 @@ echo -e "   │   ├── skills/          ${DIM}← ${SKILL_COUNT:-0} crew sk
 echo -e "   │   ├── hooks/           ${DIM}← ${HOOK_COUNT:-0} hooks${NC}"
 echo -e "   │   ├── settings.json    ${DIM}← hooks configuration${NC}"
 echo -e "   │   └── references/      ${DIM}← shared docs${NC}"
+echo -e "   ├── Meta/"
+echo -e "   │   └── scripts/         ${DIM}← ${ORCH_COUNT:-0} orchestra scripts${NC}"
 echo -e "   ├── CLAUDE.md            ${DIM}← project instructions${NC}"
 if [[ "$MCP_ANSWER" =~ ^[Yy]$ ]]; then
 echo -e "   └── .mcp.json            ${DIM}← Gmail + Calendar${NC}"

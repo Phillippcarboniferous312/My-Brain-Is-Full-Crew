@@ -266,6 +266,41 @@ if [[ -f "$REPO_DIR/settings.json" ]]; then
   fi
 fi
 
+# ── Remove stale orchestra scripts ────────────────────────────────────────
+ORCH_MANIFEST="$VAULT_DIR/Meta/scripts/.core-manifest"
+REMOVED_SCRIPTS=0
+if [[ -d "$REPO_DIR/orchestra" && -f "$ORCH_MANIFEST" ]]; then
+  while IFS= read -r old_script; do
+    [[ -z "$old_script" ]] && continue
+    [[ -f "$REPO_DIR/orchestra/$old_script" ]] && continue
+    vault_script="$VAULT_DIR/Meta/scripts/$old_script"
+    [[ -f "$vault_script" ]] || continue
+    rm "$vault_script"
+    warn "Removed stale script: $old_script"
+    REMOVED_SCRIPTS=$((REMOVED_SCRIPTS + 1))
+  done < "$ORCH_MANIFEST"
+fi
+
+# ── Update orchestra scripts ──────────────────────────────────────────────
+ORCH_COUNT=0
+if [[ -d "$REPO_DIR/orchestra" ]]; then
+  mkdir -p "$VAULT_DIR/Meta/scripts"
+  : > "$VAULT_DIR/Meta/scripts/.core-manifest"
+  for script in "$REPO_DIR/orchestra/"*; do
+    [[ -f "$script" ]] || continue
+    bname="$(basename "$script")"
+    [[ "$bname" == "README.md" ]] && continue
+    echo "$bname" >> "$VAULT_DIR/Meta/scripts/.core-manifest"
+    dst="$VAULT_DIR/Meta/scripts/$bname"
+    if [[ ! -f "$dst" ]] || ! diff -q "$script" "$dst" >/dev/null 2>&1; then
+      cp "$script" "$dst"
+      chmod +x "$dst"
+      info "Updated script: $bname"
+      ORCH_COUNT=$((ORCH_COUNT + 1))
+    fi
+  done
+fi
+
 # ── Update CLAUDE.md ──────────────────────────────────────────────────────
 CLAUDE_MD_UPDATED=""
 if [[ -f "$REPO_DIR/CLAUDE.md" ]]; then
@@ -278,12 +313,15 @@ fi
 
 # ── Summary ─────────────────────────────────────────────────────────────────
 echo ""
-if [[ $AGENT_COUNT -eq 0 && $REF_COUNT -eq 0 && $SKILL_COUNT -eq 0 && $HOOK_COUNT -eq 0 && $DEPRECATED_COUNT -eq 0 && -z "$CLAUDE_MD_UPDATED" && -z "$SETTINGS_UPDATED" ]]; then
+if [[ $AGENT_COUNT -eq 0 && $REF_COUNT -eq 0 && $SKILL_COUNT -eq 0 && $HOOK_COUNT -eq 0 && $ORCH_COUNT -eq 0 && $DEPRECATED_COUNT -eq 0 && $REMOVED_SCRIPTS -eq 0 && -z "$CLAUDE_MD_UPDATED" && -z "$SETTINGS_UPDATED" ]]; then
   success "Everything is already up to date!"
 else
-  success "Updated $AGENT_COUNT agent(s), $SKILL_COUNT skill(s), $REF_COUNT reference(s), $HOOK_COUNT hook(s)"
+  success "Updated $AGENT_COUNT agent(s), $SKILL_COUNT skill(s), $REF_COUNT reference(s), $HOOK_COUNT hook(s), $ORCH_COUNT script(s)"
   if [[ $DEPRECATED_COUNT -gt 0 ]]; then
     warn "Deprecated $DEPRECATED_COUNT file(s) no longer in the project"
+  fi
+  if [[ $REMOVED_SCRIPTS -gt 0 ]]; then
+    warn "Removed $REMOVED_SCRIPTS stale script(s) from Meta/scripts/"
   fi
 fi
 echo ""
